@@ -70,7 +70,7 @@ padding-bottom: 10px;}
     color: #FFF;
 padding-left: 170px;
 font-family: Inter;
-font-size: 25px;
+font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -200,11 +200,12 @@ border: 0;
     margin-top: 10px;
     margin-right: 10px;
 }
-.img3 .b{
-    transition: 0.5 ease;
+.b{
+    transition: 1s;
 }
-.img3 .b :hover{
+.b :hover{
     transform: scale(1.3);
+    z-index: 2;
     border: 1px solid brown;
 
 }
@@ -244,12 +245,70 @@ border: 0;
     background-color: #F00;
     color: #FFFFFF;
     border-radius:0px 50px 50px 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
 
     
     
 }
-footer{
+.div8{
+    height: 500px;
     background-color: #070211;
-    height: 600px;
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
 }
+.div8 h3{
 
+   font-size: 25px;
+
+  
+    
+
+   
+}
+.div8 h5{
+
+    font-size: 24px;
+  
+}
+ .div8 .d{
+ 
+   
+}
+.div8 h1{
+
+    font-size: 24px;
+  
+}
+.div8 .c h2{
+    display: inline;
+}
+.c{
+    font-size: 24px;
+    gap: 13px;
+}
+.div8 span{
+    font-size: 24px;
+}
+.d{
+    font-size: 24px;
+    gap: 13px;
+
+}
+.div8 hr{
+    padding-top:20px ;
+    padding-left: 140px;
+    padding-right: 140px;
+    color: brown;
+}
+.div8 h4{
+    font-size: 24px;
+    
+    
+}
+.div8 h5{
+    font-size: 24px;
+    position: right bottom;
+}
